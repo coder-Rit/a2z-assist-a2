@@ -16,12 +16,12 @@
 
 ul {
   list-style: none;
-width: 100vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
- padding: 0;
-   
+  padding: 0;
+
 }
 
 .nav-link {
@@ -36,7 +36,7 @@ width: 100vw;
 
 @media (max-width:600px) {
   .nav-link {
-    padding: 5px ;
+    padding: 5px;
     border-bottom: 1px solid rgb(136, 0, 255);
     font-size: 12px;
     word-wrap: normal;
@@ -50,3 +50,10 @@ width: 100vw;
 
   color: #fff;
 }
+
+.activate {
+  background: "rgb(136, 0, 255)";
+  border-bottom: "2px solid #ffffff",
+}
+
+ 
