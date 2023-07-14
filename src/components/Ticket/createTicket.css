@@ -1,0 +1,57 @@
+.new-ticket-page {
+
+     margin: 100px auto;
+
+    padding: 20px;
+    background-color: #160039;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  select{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    outline: none;
+    background-color: #55555500;
+  }
+  option{
+   
+    color: #fff;
+     
+    background-color: #2b2b2b;
+  }
+ 
+
+  @media (max-width:480px) {
+    .new-ticket-page {
+      width: 80vw;
+       
+ 
+     
+   }
+  }
+  
+ 
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+   
+  
+  .popup {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+  }
+  
