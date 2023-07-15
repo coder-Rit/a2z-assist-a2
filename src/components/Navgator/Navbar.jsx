@@ -15,7 +15,7 @@ const Navbar = (props) => {
     <nav className="navigation">
       <ul>
         <li>
-          <a
+          <span
             onClick={() => directionHandler("/")}
             className="nav-link"
             style={
@@ -31,7 +31,7 @@ const Navbar = (props) => {
           </a>
         </li>
         <li>
-          <a
+          <span
             onClick={() => directionHandler("/newTicket")}
             className="nav-link"
             style={
@@ -47,7 +47,7 @@ const Navbar = (props) => {
           </a>
         </li>
         <li>
-          <a
+          <span
             onClick={() => directionHandler("/auth")}
             className="nav-link"
             style={
