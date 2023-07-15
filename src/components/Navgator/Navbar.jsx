@@ -28,7 +28,7 @@ const Navbar = (props) => {
             }
           >
             Home
-          </a>
+          </span>
         </li>
         <li>
           <span
@@ -44,7 +44,7 @@ const Navbar = (props) => {
             }
           >
             Create New Ticket
-          </a>
+          </span>
         </li>
         <li>
           <span
@@ -60,7 +60,7 @@ const Navbar = (props) => {
             }
           >
             Login/Register
-          </a>
+          </span>
         </li>
       </ul>
     </nav>
